@@ -119,75 +119,75 @@ springsecurity2fa/
 ### 🖥️ Welcome, Login, & Register Page
 1. **Welcome Page:**
    <div align="center">
-     <img src="springsecurity2fa-main/image.png" alt="Welcome Page" width="400"/>
+     <img src="image.png" alt="Welcome Page" width="400"/>
    </div>
 
 2. **Login Page:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-1.png" alt="Login Page" width="400"/>
+     <img src="image-1.png" alt="Login Page" width="400"/>
    </div>
 
 3. **Login Page with Error:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-3.png" alt="Login Page with Error" width="400"/>
+     <img src="image-3.png" alt="Login Page with Error" width="400"/>
    </div>
 
 4. **Register Page:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-2.png" alt="Register Page" width="400"/>
+     <img src="image-2.png" alt="Register Page" width="400"/>
    </div>
 
 5. **Registration:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-4.png" alt="Registration" width="400"/>
+     <img src="image-4.png" alt="Registration" width="400"/>
    </div>
 
 ### 🖥️ 2FA Setup Page
 1. **2FA Setup Page with QR & Recovery Code Details:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-5.png" alt="2FA Setup Page with QR & Recovery Code Details" width="400"/>
+     <img src="image-5.png" alt="2FA Setup Page with QR & Recovery Code Details" width="400"/>
    </div>
 
 2. **2FA Verification via TOTP:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-7.png" alt="2FA Verification via TOTP" width="400"/>
+     <img src="image-7.png" alt="2FA Verification via TOTP" width="400"/>
    </div>
 
 3. **Verification Succeeded:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-8.png" alt="Verification Succeeded" width="400"/>
+     <img src="image-8.png" alt="Verification Succeeded" width="400"/>
    </div>
 
 ### 🖥️ Recovery Code Page
 
 1. **Recovery Code Page:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-10.png" alt="Recovery Code Page" width="400"/>
+     <img src="image-10.png" alt="Recovery Code Page" width="400"/>
    </div>
 
 3. **2FA Verification via Recovery Code:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-11.png" alt="2FA Verification via Recovery Code" width="400"/>
+     <img src="image-11.png" alt="2FA Verification via Recovery Code" width="400"/>
    </div>
 
 4. **Database Information:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-12.png" alt="Database Information" width="400"/>
+     <img src="image-12.png" alt="Database Information" width="400"/>
    </div>
 
 5. **Deletion of Recovery Code, user_id 4 (Before):**
    <div align="center">
-     <img src="springsecurity2fa-main/image-13.png" alt="Deletion of Recovery Code" width="400"/>
+     <img src="image-13.png" alt="Deletion of Recovery Code" width="400"/>
    </div>
 
 6. **Deleted of Recovery Code, user_id 4 (After):**
    <div align="center">
-     <img src="springsecurity2fa-main/image-15.png" alt="Deleted of Recovery Code" width="400"/>
+     <img src="image-15.png" alt="Deleted of Recovery Code" width="400"/>
    </div>
 
 7. **Recovery Code Page with Success:**
    <div align="center">
-     <img src="springsecurity2fa-main/image-14.png" alt="Recovery Code Page with Success" width="400"/>
+     <img src="image-14.png" alt="Recovery Code Page with Success" width="400"/>
    </div>
 
 ## 📚 References
