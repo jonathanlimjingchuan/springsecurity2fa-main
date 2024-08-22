@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Two-Factor Authentication Setup</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        p {
+            font-family: 'Arial', sans-serif;
+            color: #555;
+        }
+        .qr-code img {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            background: white;
+        }
+        .recovery-codes li {
+            font-family: 'Courier New', monospace;
+            background: #e9ecef;
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-center">Two-Factor Authentication Setup</h2>
+                        <p class="text-center">Scan the QR code below with your Google Authenticator app.</p>
+                        <div class="text-center qr-code">
+                            <img th:src="@{${qrCodeUrl}}" alt="QR Code" class="img-fluid" />
+                        </div>
+                        <p class="text-center mt-3">Or, enter this secret key manually: <strong th:text="${twoFactorSecret}"></strong></p>
+
+                        <!-- Display Recovery Codes -->
+                        <h4 class="text-center mt-4">Recovery Codes</h4>
+                        <p class="text-center">Save these codes securely. You can use them if you lose access to your authenticator app.</p>
+                        <ul class="text-center list-unstyled recovery-codes">
+                            <li th:each="code : ${recoveryCodes}" th:text="${code}"></li>
+                        </ul>
+
+                        <div class="text-center mt-4">
+                            <a class="btn btn-primary btn-lg" href="/hello">Continue to Application</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
